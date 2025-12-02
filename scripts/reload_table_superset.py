@@ -8,7 +8,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 
 # Configuration - Update these values
-DB_URL = "postgresql://postgres:Y5mnshpDFF44@34.93.93.62:5432/matomo_analytics"
+DB_URL = "postgresql://postgres:<password>@34.93.93.62:5432/matomo_analytics"
 CSV_PATH = "/home/user/Downloads/entry_dropoff_mapping.csv"  # Update if your file is elsewhere
 TABLE_NAME = "entry_dropoff_mapping"
 
